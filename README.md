@@ -1,6 +1,11 @@
 # @wxmp/charts
 
 基于 [Antv F2](https://f2-v3.antv.vision/zh/docs/tutorial/getting-started/) 的微信小程序图标组件库
+## Features
+
+- [ ] line
+- [ ] donut
+- [ ] pie
 
 ## 使用方法
 
@@ -20,7 +25,7 @@ npm install --save @wxmp/charts
 }
 ```
 
-3. WXML 文件中引用 calendar
+3. WXML 文件中引用 basic-line-chart
 
 ```xml
 <basic-line-chart
