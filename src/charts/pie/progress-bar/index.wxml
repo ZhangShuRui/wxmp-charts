@@ -1,0 +1,10 @@
+<view style="width: 100%;height: 100%;position: relative;">
+  <f2
+    id="progress-bar"
+    style="width: 100%;height: 100%;"
+    opts="{{opts}}"
+  />
+  <view wx:if="{{textSlot}}" style="position: absolute;top: 52%;left: 50%;transform: translate(-50%, -50%);">
+    <slot></slot>
+  </view>
+</view>

@@ -1,0 +1,6 @@
+<f2
+ id="base-line"
+ style="width:{{width <=100 ? width+'%' : width+'rpx'}};height:{{height<=100?height+'%':height+'rpx'}}"
+ opts="{{opts}}"
+/>
+
